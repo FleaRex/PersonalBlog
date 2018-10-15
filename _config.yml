@@ -14,3 +14,10 @@ defaults:
       layout: "default"
 
 exclude: [vendor]
+
+url: "http://benmadley.co.uk"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap

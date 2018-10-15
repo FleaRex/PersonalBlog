@@ -14,3 +14,8 @@ defaults:
       layout: "default"
 
 exclude: [vendor]
+
+url: "http://benmadley.co.uk"
+
+plugins:
+  - jekyll-sitemap

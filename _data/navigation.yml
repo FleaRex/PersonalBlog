@@ -1,8 +1,4 @@
 - name: Home
   link: /
-- name: Blog
-  link: /blog.html
 - name: Personal Aims
   link: /aims.html
-- name: Authors
-  link: /authors.html

@@ -1,5 +1,6 @@
 ---
 title: Home
+short_name: ben
 ---
 <h1>Ben Madley</h1>
 
@@ -8,4 +9,15 @@ title: Home
   <li>Mario Kart Champion</li>
   <li>GitHub: <a href="https://github.com/FleaRex">FleaRex</a></li>
   <li>Twitter: <a href="https://twitter.com/BenMad29">@BenMad29</a></li>
+</ul>
+
+<h2>Latest Posts</h2>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
 </ul>

@@ -13,7 +13,7 @@ defaults:
     values:
       layout: "default"
 
-exclude: [vendor]
+exclude: [vendor, favicon.xcf]
 
 url: "http://benmadley.co.uk"
 

@@ -13,11 +13,11 @@ short_name: ben
 
 <h2>Latest Posts</h2>
 
-<ul>
   {% for post in site.posts %}
-    <li>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p>{{ post.excerpt }}</p>
-    </li>
+    <a href="{{ post.url }}">
+      <div class="blogCard">
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.excerpt }}</p>
+      </div>
+    </a>
   {% endfor %}
-</ul>

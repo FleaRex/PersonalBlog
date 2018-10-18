@@ -51,12 +51,6 @@ body {
     nav a {font-size: 18px;}
 }
 
-a {
-    text-decoration: none;
-    font-weight: bold;
-    color: $primary-color;
-}
-
 .blogCard {
   padding-top: 5px;
   padding-right: 15px;
@@ -71,13 +65,23 @@ a:hover .blogCard {
   background-color: $sidebar-hover-color
 }
 
-.blogCard h3, .blogCard p {
+a {
   color: $primary-color;
+  text-decoration-color: $primary-color;
+}
+
+.blogCard {
+  color: $primary-color;
+}
+
+.blogCardLink {
   text-decoration: none;
 }
 
-.blogCard p {
-  color: $primary-color;
-  text-decoration: none;
-  font-weight: normal;
+li {
+  line-height: 1.5em;
+}
+
+p {
+  line-height: 1.5em;
 }

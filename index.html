@@ -14,7 +14,7 @@ short_name: ben
 <h2>Latest Posts</h2>
 
   {% for post in site.posts %}
-    <a href="{{ post.url }}">
+    <a class="blogCardLink" href="{{ post.url }}">
       <div class="blogCard">
           <h3>{{ post.title }}</h3>
           <p>{{ post.excerpt }}</p>

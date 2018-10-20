@@ -70,6 +70,11 @@ a {
   text-decoration-color: $primary-color;
 }
 
+a:hover {
+  color: $sidebar-hover-color;
+  text-decoration-color: $sidebar-hover-color;
+}
+
 .blogCard {
   color: $primary-color;
 }

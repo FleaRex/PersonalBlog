@@ -22,5 +22,3 @@ You do have three options for keeping tabs on the other players:
 ## Know the map
 
 ## Most importantly
-
-If someone good is doing something that seems illogical, ask them why they're doing it. It could change everything!

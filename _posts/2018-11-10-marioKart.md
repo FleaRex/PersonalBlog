@@ -7,7 +7,7 @@ So you've been playing Mario Kart for a while and it's going well! You can beat 
 
 ## What is a defensive item?
 
-Certain items can be held behind your character by holding **L** on the controller. These include Bananas, Bob-ombs, Green Shells and Red Shells. I call these defensive items as while you're doing this you can't be hit by a Red Shell.
+Certain items can be held behind your character by holding **L** on the controller. These items include Bananas, Bob-ombs, Green Shells and Red Shells. I call these defensive items as while you're doing this you can't be hit by a Red Shell.
 
 Now we know that you can hold items behind you...
 
@@ -17,7 +17,7 @@ While you're in first, unless the kart behind you is *very* close, you don't nee
 
 {% picture Watch out behind you!|/assets/images/RedShellWarning.jpg %}
 
-Why would you want to do this? When you're in first, you get a really limited supply of defensive items so you need to use them all as well as possible. If you get hit by a blue shell or a bob-omb you'll be hit even if you're defending yourself *and* it will destroy the item.
+Why would you want to do this? When you're in first, you get a really limited supply of defensive items so you need to use them all as well as possible. If you get hit by a blue shell or a bob-omb you can't defend yourself *and* it will destroy the item.
 
 ## Hold a coin
 
@@ -49,4 +49,4 @@ Now, don't use the coin! This protects you from a ghost from stealing your defen
 
 ## Final advice
 
-My last piece of advice for now: If someone good is doing something that seems illogical, ask them why they're doing it. It could change everything! That's where I learned everything in this post!
+My last piece of advice for now: If someone good is doing something that seems illogical, ask them why they're doing it. It could change everything! It's how I learned everything in this post!

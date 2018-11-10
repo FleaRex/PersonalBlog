@@ -11,7 +11,9 @@ class PictureTag < Liquid::Tag
 
     output =  <<-PIC
 <div class="captionedImage">
-  <img src="#{image}" alt="#{caption}" width="100%">
+  <a href="#{image}">
+    <img src="#{image}" alt="#{caption}" width="100%">
+  </a>
   <p class="caption">#{caption}</p>
 </div>
     PIC

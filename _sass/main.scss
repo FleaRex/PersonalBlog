@@ -52,13 +52,12 @@ body {
 }
 
 .blogCard {
+  @extend %card;
   padding-top: 5px;
   padding-right: 15px;
   padding-bottom: 15px;
   padding-left: 15px;
-  background-color: $card-color;
   margin-bottom: 30px;
-  box-shadow: 3px 5px $primary-color;
 }
 
 a:hover .blogCard {
@@ -89,4 +88,20 @@ li {
 
 p {
   line-height: 1.5em;
+}
+
+.caption {
+  margin-top: 0px;
+  font-style: italic;
+}
+
+.captionedImage {
+  @extend %card;
+  text-align: center;
+  width: 60%;
+}
+
+%card {
+  background-color: $card-color;
+  box-shadow: 3px 5px $primary-color;
 }

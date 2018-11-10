@@ -98,7 +98,7 @@ p {
 .captionedImage {
   @extend %card;
   text-align: center;
-  width: 60%;
+  width: 100%;
 }
 
 %card {
@@ -108,4 +108,9 @@ p {
 
 .date {
   font-style: italic;
+}
+
+.content {
+  width: 60%;
+  min-width: 30em;
 }

@@ -52,13 +52,12 @@ body {
 }
 
 .blogCard {
+  @extend %card;
   padding-top: 5px;
   padding-right: 15px;
   padding-bottom: 15px;
   padding-left: 15px;
-  background-color: $card-color;
   margin-bottom: 30px;
-  box-shadow: 3px 5px $primary-color;
 }
 
 a:hover .blogCard {
@@ -68,6 +67,11 @@ a:hover .blogCard {
 a {
   color: $primary-color;
   text-decoration-color: $primary-color;
+}
+
+a:hover {
+  color: $sidebar-hover-color;
+  text-decoration-color: $sidebar-hover-color;
 }
 
 .blogCard {
@@ -84,4 +88,29 @@ li {
 
 p {
   line-height: 1.5em;
+}
+
+.caption {
+  margin-top: 0px;
+  font-style: italic;
+}
+
+.captionedImage {
+  @extend %card;
+  text-align: center;
+  width: 100%;
+}
+
+%card {
+  background-color: $card-color;
+  box-shadow: 3px 5px $primary-color;
+}
+
+.date {
+  font-style: italic;
+}
+
+.content {
+  width: 60%;
+  min-width: 30em;
 }

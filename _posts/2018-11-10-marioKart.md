@@ -1,5 +1,5 @@
 ---
-author: ben
+author: Ben Madley
 title: Mario Kart Next Steps - Part 1
 ---
 

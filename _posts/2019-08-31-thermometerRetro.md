@@ -22,7 +22,9 @@ Like many retros you are going to need post-it notes.
 3. When you've run out of areas to discuss or you've reached the last 10 minutes or so of the retro, decide on the 1-3 most important areas to improve.
 4. For each area you pick, pick an action point to improve it.
 
-Try to avoid getting individual votes and taking the average. Encourage the team to come up with a consensus without letting the discussion go longer than a couple of minutes. When you really can't find a consensus, take an average rounding down (and consider the reasons why your team have such different opinions).
+<div style="width: 50%; margin: 0 auto;">{% picture Our first run.|/assets/images/thermometerRetro/ExampleThermometer.jpg %}</div>
+
+Try to avoid getting individual votes and taking the average. Encourage the team to come up with a consensus without letting the discussion go longer than a couple of minutes. When you really can't find a consensus, take an average rounding down or the lowest number (and consider the reasons why your team have such different views).
 
 As I mentioned above, the aim of this exercise is to find the most important areas to improve and focus on improving them. It *is* quite a negative technique, focusing on what isn't going well. You may want to mix this up with retros that have more positive focus, or consider the things that are going well and decide how to do more of them.
 

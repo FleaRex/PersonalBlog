@@ -11,7 +11,9 @@ defaults:
 
 exclude: [vendor, favicon.xcf]
 
+title: "Ben Madley's Blog"
 url: "http://benmadley.co.uk"
+author: "Ben Madley"
 
 plugins:
   - jekyll-feed

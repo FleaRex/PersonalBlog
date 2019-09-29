@@ -14,11 +14,11 @@ Now we know that you can hold items behind you...
 
 ## Don't hold your item behind you
 
-While you're in first, unless the kart behind you is *very* close, you don't need to hold an item behind you for protection all the time. The game gives you enough warning to get the item out.
+While you're in first, unless the kart behind you is _very_ close, you don't need to hold an item behind you for protection all the time. The game gives you enough warning to get the item out.
 
 {% picture Watch out behind you!|/assets/images/RedShellWarning.jpg %}
 
-Why would you want to do this? When you're in first, you get a really limited supply of defensive items so you need to use them all as well as possible. If you get hit by a blue shell or a bob-omb you can't defend yourself *and* it will destroy the item.
+Why would you want to do this? When you're in first, you get a really limited supply of defensive items so you need to use them all as well as possible. If you get hit by a blue shell or a bob-omb you can't defend yourself _and_ it will destroy the item.
 
 ## Hold a coin
 
@@ -38,7 +38,7 @@ Just as an aside, this isn't always true online. It's possible to get two coins 
 
 {% picture A sorry situation|/assets/images/DoubleCoin.jpg %}
 
-I believe this is a bug. *Possibly due to race conditions.*
+I believe this is a bug. _Possibly due to race conditions._
 
 ## Keep holding the coin
 

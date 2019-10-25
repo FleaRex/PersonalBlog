@@ -9,87 +9,9 @@ $sidebar-hover-color: #79CDCD;
 $card-color: #EEEEEE;
 $nav-width: 160px;
 
-.current {
-  color: $selected-text-color;
-}
-
-nav {
-    height: 100%;
-    width: $nav-width;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: $sidebar-color;
-    overflow-x: hidden;
-    padding-top: 20px;
-}
-
-nav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: $sidebar-text-color;
-    display: block;
-    font-weight: normal;
-}
-
-nav a:hover {
-    color: $sidebar-hover-color;
-}
-
-.mainpage {
-  margin-left: $nav-width;
-  padding: 0px 10px;
-}
-
 body {
   font: 100% $font-stack;
   color: $primary-color;
-}
-
-@media screen and (max-height: 450px) {
-    nav {padding-top: 15px;}
-    nav a {font-size: 18px;}
-}
-
-.blogCard {
-  @extend %card;
-  padding-top: 5px;
-  padding-right: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  margin-bottom: 30px;
-}
-
-a:hover .blogCard {
-  background-color: $sidebar-hover-color
-}
-
-a {
-  color: $primary-color;
-  text-decoration-color: $primary-color;
-}
-
-a:hover {
-  color: $sidebar-hover-color;
-  text-decoration-color: $sidebar-hover-color;
-}
-
-.blogCard {
-  color: $primary-color;
-}
-
-.blogCardLink {
-  text-decoration: none;
-}
-
-li {
-  line-height: 1.5em;
-}
-
-p {
-  line-height: 1.5em;
 }
 
 .caption {
@@ -114,25 +36,4 @@ p {
 
 .author {
   font-style: italic;
-}
-
-.content {
-  width: 60%;
-  min-width: 30em;
-}
-
-table {
-  border-collapse: collapse;
-}
-
-th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: $card-color;
-}
-
-td, th {
-  border: 1px solid #ddd;
-  padding: 8px;
 }

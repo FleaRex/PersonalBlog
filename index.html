@@ -4,20 +4,26 @@ short_name: ben
 ---
 <h1>Ben Madley</h1>
 
+<div class="divider"></div>
+
 <ul>
-  <li>Software Developer: PHP, MySQL</li>
+  <li>Software Developer: PHP, Python, MySQL, Scrum</li>
   <li>Former Mario Kart Champion</li>
   <li>GitHub: <a href="https://github.com/FleaRex">FleaRex</a></li>
   <li>Twitter: <a href="https://twitter.com/BenMad29">@BenMad29</a></li>
 </ul>
 
+<div class="divider"></div>
+
 <h2>Latest Posts</h2>
 
-  {% for post in site.posts %}
-    <a class="blogCardLink" href="{{ post.url }}">
-      <div class="blogCard">
-          <h3>{{ post.title }}</h3>
-          <p>{{ post.excerpt }}</p>
+{% for post in site.posts %}
+  <a class="blogCardLink" href="{{ post.url }}">
+    <div class="card hoverable blue">
+      <div class="card-content white-text">
+        <span class="card-title">{{ post.title }}</span>
+        <p>{{ post.excerpt }}</p>
       </div>
-    </a>
-  {% endfor %}
+    </div>
+  </a>
+{% endfor %}

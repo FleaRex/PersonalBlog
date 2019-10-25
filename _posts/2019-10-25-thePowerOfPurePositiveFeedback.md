@@ -10,7 +10,7 @@ I am a big fan of positive feedback, and I would like to talk about why. This is
 
 We normally think of feedback as either Positive or Constructive. I’d like you to consider Active and Passive feedback.
 
-Active feedback is the feedback you choose to give someone. An example of this is the Continuous Feedback form. Passive feedback is the feedback you give someone without realising. You don’t know it, but you are providing this feedback almost all the time. For example, when you give a presentation you are getting constant passive feedback from the audience:
+Active feedback is the feedback you choose to give someone. An example of this is face-to-face, spoken feedback. Passive feedback is the feedback you give someone without realising. You don’t know it, but you are providing this feedback almost all the time. For example, when you give a presentation you are getting constant passive feedback from the audience:
 
 | Action from audience | Passive feedback received                                                             |
 | :------------------- | :------------------------------------------------------------------------------------ |

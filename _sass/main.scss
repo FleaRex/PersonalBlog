@@ -120,3 +120,19 @@ p {
   width: 60%;
   min-width: 30em;
 }
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: $card-color;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}

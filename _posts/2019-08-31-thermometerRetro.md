@@ -15,7 +15,7 @@ The Thermometer Retro asks your team to decide what is going well and what isn't
 
 There's a temptation to view this retro as a health check, but it's more important to focus on finding opportunities for improvement.
 
-## How It Works
+### How It Works
 
 Like many retros you are going to need post-it notes.
 
@@ -30,7 +30,7 @@ Try to avoid getting individual votes and taking the average. Encourage the team
 
 As I mentioned above, the aim of this exercise is to find the most important areas to improve and focus on improving them. It _is_ quite a negative technique, focusing on what isn't going well. You may want to mix this up with retros that have more positive focus, or consider the things that are going well and decide how to do more of them.
 
-## Possible Areas
+### Possible Areas
 
 The areas to discuss can be pretty much anything. Here are some topics that work for our team.
 

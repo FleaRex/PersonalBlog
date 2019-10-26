@@ -6,7 +6,7 @@ title: The Power of Pure Positive Feedback
 
 I am a big fan of positive feedback, and I would like to talk about why. This is inspired by a collection of thoughts from talks and blogs. It goes like this…
 
-# Types of Feedback
+### Types of Feedback
 
 We normally think of feedback as either Positive or Constructive. I’d like you to consider Active and Passive feedback.
 
@@ -21,7 +21,7 @@ Active feedback is the feedback you choose to give someone. An example of this i
 
 The problem is that passive feedback isn’t feedback you intend to give. Let me give you another example.
 
-# The Lack of Active Feedback
+### The Lack of Active Feedback
 
 The most common example of passive feedback is the lack of active feedback. This is where we haven’t explicitly given someone feedback.
 
@@ -31,7 +31,7 @@ If we observe a behaviour we don’t like and we don’t give active feedback, w
 
 If we like the behaviour and we don’t give active feedback, we’ve said we don’t value it. We’ve provided the passive feedback that we don’t mind if the recipient doesn’t display that behaviour again. Often this behaviour takes extra effort. Maybe they were on the ball in a meeting thanks to extra preparation. Maybe their work was great today because they’ve been working hard to sleep well. If they don’t know that they’re doing great they’ve got no reason to keep putting in that effort.
 
-# The Call to Action
+### The Call to Action
 
 All this is to say: don’t be afraid to give that positive feedback. Make it useful though. Let them know what you want to see again.
 

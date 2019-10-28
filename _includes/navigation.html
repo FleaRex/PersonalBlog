@@ -3,7 +3,7 @@
     <div class="nav-wrapper">
       <ul id="nav-mobile" class="left">
         {% for item in site.data.navigation %}
-          <li><a class="blue-text" href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
+          <li><a class=" red-text text-darken-4" href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
         {% endfor %}
       </ul>
     </div>

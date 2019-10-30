@@ -21,8 +21,7 @@ short_name: ben
   <a class="blogCardLink" href="{{ post.url }}">
     <div class="card hoverable  teal darken-1">
       <div class="card-content white-text">
-        {% assign date = post.date %}
-        <span class="card-title">{{ post.title }}<span class="card-date">{{ date | days_ago }}</span></span>
+        <span class="card-title">{{ post.title }}</span>
         <p>{{ post.excerpt }}</p>
       </div>
     </div>

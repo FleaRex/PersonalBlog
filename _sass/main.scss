@@ -33,3 +33,8 @@ body {
 .author {
   font-style: italic;
 }
+
+li {
+  display: list-item;
+  list-style-type: disc !important;
+}

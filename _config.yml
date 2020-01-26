@@ -9,6 +9,9 @@ defaults:
     values:
       layout: "default"
 
+collections:
+  - books
+
 exclude: [vendor, favicon.xcf]
 
 title: "Ben Madley's Blog"

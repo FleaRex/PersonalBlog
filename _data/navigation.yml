@@ -1,7 +1,5 @@
 - name: Home
   link: /
-- name: Aims
-  link: /aims.html
 - name: Reading List
   link: /readingList.html
 - name: Glossary

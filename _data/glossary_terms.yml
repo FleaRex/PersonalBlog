@@ -7,6 +7,9 @@
 - word: Dogfooding
   definition: Using your own product. If you make project management software you would use it to manage your own projects. I have heard that Facebook do all of their internal communication on an internal Facebook.
   story: Comes from the phrase "Eating your own dog food."
+- word: Duck Typing
+  definition: Deciding whether an object is of the correct type by the methods and properties it has, rather than the type of the object itself.
+  story: "If it walks like a duck and quacks like a duck, it's a duck."
 - word: Fake door
   definition: Pretend that you offer a product or service. You advertise it on your site and that let's you gauge interest, before investing in building a product. The fake door will also give you more confidence than a survey would do. These are real users who've cooked through to a product they believe will cost them money.
 - word: Skunk Works

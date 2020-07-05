@@ -1,17 +1,31 @@
+@import "variables.scss";
 @import "code.scss";
+@import "index.scss";
 
-$font-stack: 'Roboto', Helvetica, sans-serif;
-$primary-color: #333;
-$sidebar-color: $primary-color;
-$sidebar-text-color: #CCCCCC;
-$selected-text-color: #FFFFFF;
-$sidebar-hover-color: #79CDCD;
-$card-color: #EEEEEE;
-$nav-width: 160px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
+  // TODO: Fancy gradient background like that stripe one
   font: 100% $font-stack;
-  color: $primary-color;
+  background-color: $background-color;
+  color: $text-color;
+}
+
+h1, h2,h3, h4, h5, h6 {
+  font-family: $heading-font-stack;
+  letter-spacing: 0.1em;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+a {
+  color: $accent-color;
 }
 
 .caption {
@@ -27,7 +41,7 @@ body {
 
 %card {
   background-color: $card-color;
-  box-shadow: 3px 5px $primary-color;
+  box-shadow: 3px 5px $text-color;
 }
 
 .author {

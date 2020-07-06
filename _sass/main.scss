@@ -1,6 +1,7 @@
 @import "variables.scss";
 @import "code.scss";
 @import "index.scss";
+@import "navigation.scss";
 
 * {
   margin: 0;
@@ -103,7 +104,7 @@ $stripe-5: #34ffdd;
 
 li {
   display: list-item;
-  list-style-type: disc !important;
+  // list-style-type: disc !important;
 }
 
 .glossary-story {

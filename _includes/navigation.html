@@ -1,11 +1,8 @@
-<div class="navbar-fixed">
-  <nav class="white">
-    <div class="nav-wrapper">
-      <ul id="nav-mobile" class="left">
-        {% for item in site.data.navigation %}
-          <li><a class=" teal-text text-darken-2" href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
-  </nav>
-</div>
+<nav class="nav-bar">
+  <ul>
+    {% for item in site.data.navigation %}
+      <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}><li>{{ item.name }}</li></a>
+      <div></div>
+    {% endfor %}
+  </ul>
+</nav>

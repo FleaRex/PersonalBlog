@@ -1,5 +1,3 @@
-@import "code.scss";
-
 .hero {
   display: flex;
   justify-content: flex-end;
@@ -27,6 +25,7 @@
         color: $background-color;
         border-radius: 2px;
         transition: all 0.25s ease;
+        text-decoration: none;
 
         &::before {
           z-index: -2;
@@ -122,10 +121,6 @@
 
       a {
         color: #002D76;
-
-        &:hover {
-          color: #2e5eff;
-        }
       }
 
       h1 {
@@ -143,6 +138,10 @@
 
       &--read-more {
         font-size: 20px;
+
+        &:hover {
+          color: #2e5eff;
+        }
       }
     }
   }

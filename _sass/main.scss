@@ -24,8 +24,61 @@ h1 {
   font-size: 48px;
 }
 
+p {
+  font-size: 18px;
+}
+
 a {
   color: $accent-color;
+}
+
+$stripe-1: $background-color;
+$stripe-2: #002D76;
+$stripe-3: #2e5eff;
+$stripe-4: #4553ff;
+$stripe-5: #34ffdd;
+
+#stripes {
+  position: fixed;
+  z-index: -10;
+  top: 30vh;
+  left: 0;
+  width: 1800px;
+  height: 800px;
+  background: linear-gradient(150deg, $stripe-1 15%, #2e5eff 70%, $text-color 94%);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  transform: skewY(-12deg);
+  transform-origin: 0;
+
+
+  span:nth-child(1) {
+    grid-column: span 1;
+    background: $stripe-1;
+  }
+
+  span:nth-child(2) {
+    grid-column: span 2;
+    background: $stripe-2;
+  }
+
+  span:nth-child(3) {
+    grid-column: span 2;
+    background: $stripe-3;
+  }
+
+  span:nth-child(4) {
+    grid-column: 6;
+    grid-row: 3;
+    background: $stripe-4;
+  }
+
+  span:nth-child(5) {
+    grid-column: span 2;
+    grid-row: 4;
+    background: $stripe-5;
+  }
 }
 
 .caption {

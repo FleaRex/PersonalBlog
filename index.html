@@ -8,32 +8,28 @@ short_name: ben
 
     <div class="hero--text--site-links">
       <a>About Me</a>
-      <a>Read the Blog</a>
+      <a>The Blog</a>
       <a>Reading List</a>
       <a>Glossary</a>
     </div>
 
     <ul class="hero--text--personal-links">
       <!-- TODO: Replace with Icons -->
-      <li><img src="assets/images/icons/github.svg" alt="Github logo"> <a href="https://github.com/FleaRex">FleaRex</a></li>
-      <li><img src="assets/images/icons/twitter.svg" alt="Twitter logo"> <a href="https://twitter.com/BenMad29">@BenMad29</a></li>
-      <li><img src="assets/images/icons/itchio.svg" alt="itch.io logo"> <a href="https://flearex.itch.io/">BAM</a></li>
+      <li><a href="https://github.com/FleaRex"><img src="assets/images/icons/github.svg" alt="Github logo">FleaRex</a></li>
+      <li><a href="https://twitter.com/BenMad29"><img src="assets/images/icons/twitter.svg" alt="Twitter logo">@BenMad29</a></li>
+      <li><a href="https://flearex.itch.io/"><img src="assets/images/icons/itchio.svg" alt="itch.io logo">BAM</a></li>
     </ul>
   </div>
 
-  <div class="hero--image">
+  <div class="hero--blog">
+    <p class="hero--blog--precomment">Most recent post:</p>
+    {% for post in site.posts limit:1 %}
+      <div class="hero--blog--recent-post">
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <h3>{{ post.author }}, {{ post.date | date_to_string }}</h3>
+        <p>{{ post.excerpt }}</p>
+        <a class="hero--blog--recent-post--read-more" href="{{ post.url }}">Read more</a>
+      </div>
+    {% endfor %}
   </div>
 </main>
-
-<h2>Latest Posts</h2>
-
-{% for post in site.posts %}
-  <a class="blogCardLink" href="{{ post.url }}">
-    <div class="card hoverable  teal darken-1">
-      <div class="card-content white-text">
-        <span class="card-title">{{ post.title }}</span>
-        <p>{{ post.excerpt }}</p>
-      </div>
-    </div>
-  </a>
-{% endfor %}

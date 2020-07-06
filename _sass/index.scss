@@ -4,10 +4,14 @@
   display: flex;
   justify-content: flex-end;
 
+  min-height: 100vh;
+
   &--text {
     margin: 40px;
 
     h1 {
+      color: $accent-color;
+      text-shadow: 3px 3px 1px rgba(0,0,0,0.75);
       span {
         font-size: 1.3em;
       }
@@ -26,7 +30,7 @@
 
         &::before {
           z-index: -2;
-          background-color: rgba($text-color, 0.6);
+          background-color: rgba($text-color, 0.75);
           position: absolute;
           top: 0;
           left: 0;
@@ -69,24 +73,78 @@
     &--personal-links {
       margin: 30px;
       li {
-        display: flex;
-        align-items: center;
-
         list-style-type: none !important;
         margin: 10px;
 
-        img {
-          filter: invert(100%);
-          height: 1.5em;
-          margin-right: 15px;
+        a {
+          display: flex;
+          align-items: center;
+
+          font-size: 18px;
+
+          img {
+            filter: invert(100%);
+            height: 1.5em;
+            margin-right: 15px;
+          }
         }
       }
     }
   }
 
-  &--image {
+  &--blog {
     flex-basis: 50%;
+    margin-left: 30px;
+    padding: 5px 60px 90px;
     background-color: $accent-color;
+    -webkit-box-shadow: inset 8px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 8px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 8px 0px 10px 0px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: rgba($background-color, 0.9);
+
+    &--precomment {
+      margin-bottom: 15px;
+      font-style: italic;
+    }
+
+    &--recent-post {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      * {
+        margin: 0 0 20px 0;
+      }
+
+      a {
+        color: #002D76;
+
+        &:hover {
+          color: #2e5eff;
+        }
+      }
+
+      h1 {
+      }
+
+      h3 {
+      }
+
+      p {
+        border-left: 2px solid rgba($background-color, 0.7);
+        padding-left: 10px;
+        font-size: 18px;
+        line-height: 30px;
+      }
+
+      &--read-more {
+        font-size: 20px;
+      }
+    }
   }
 }
 
@@ -94,7 +152,7 @@
   .hero {
     justify-content: flex-start;
 
-    &--image {
+    &--blog {
       display: none;
     }
   }

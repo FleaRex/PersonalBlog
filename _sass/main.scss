@@ -1,6 +1,7 @@
 @import "variables.scss";
 @import "code.scss";
 @import "index.scss";
+@import "post.scss";
 @import "navigation.scss";
 
 * {
@@ -31,6 +32,10 @@ p {
 
 a {
   color: $accent-color;
+}
+
+strong, th {
+  letter-spacing: 0.05em;
 }
 
 $stripe-1: $background-color;
@@ -82,38 +87,22 @@ $stripe-5: #34ffdd;
   }
 }
 
-.caption {
-  margin-top: 0px;
-  font-style: italic;
+.highlighter-rouge, .highlight {
+  background-color: $white;
+  color: $background-color;
 }
 
-.captionedImage {
-  @extend %card;
-  text-align: center;
-  width: 100%;
+figure.highlight, div.highlighter-rouge {
+  border-radius: 5px;
+  padding: 10px;
 }
 
-%card {
-  background-color: $card-color;
-  box-shadow: 3px 5px $text-color;
+code.highlighter-rouge {
+  font-size: 1em;
+  padding: 0 5px 2px;
+  border-radius: 3px;
 }
 
-.author {
-  font-style: italic;
-}
-
-li {
-  display: list-item;
-  // list-style-type: disc !important;
-}
-
-.glossary-story {
-  font-style: italic;
-}
-
-.card-divider {
-  border: 0;
-  background: #424242;
-  height: 1px;
-  width: 100%;
+.gist-file, .gist-data, .gist-meta {
+  margin: 0;
 }

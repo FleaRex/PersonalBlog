@@ -24,7 +24,7 @@ if(!a() && !b()) {
 }
 ```
 
-So, if `a()` is also falsey and `b()` is `undefined`, `0` or anything else falsey apart from `false`, `doSomething` will not run in Example 1 but **will** run in Example 2. [Short circuiting](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators) gives us even more things to think about! These aren't unusual situations. In PHP this happens all the time. Consider this example from the [`stripos` documentation](https://www.php.net/manual/en/function.stripos.php#refsect1-function.stripos-examples).
+So, if `a()` is also falsey and `b()` is `undefined`, `0` or anything else falsey apart from `false`, `doSomething` will not run in Example 1 but **will** run in Example 2. [Short circuiting](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators) gives us even more things to think about! These aren't unusual situations. In PHP this happens all the time. Consider this example from the `stripos` [documentation](https://www.php.net/manual/en/function.stripos.php#refsect1-function.stripos-examples).
 
 ```php
 <?php

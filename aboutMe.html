@@ -1,0 +1,42 @@
+---
+title: About Me
+---
+{% include navigation.html %}
+
+<div class="about-me">
+  <h1>About Me</h1>
+
+  <p>Welcome to the blog! I hope you've been enjoying youself. I started my career as a purely backend developer but I've been in a full-stack role since February. I love managing a team, developing tech that visibly creates value, and DevOps.</p>
+
+  <ul class="about-me--list">
+    <li class="about-me--list--item">Python<img src="assets/images/icons/python.svg" alt="Github logo"></li>
+    <li class="about-me--list--item">PHP<img src="assets/images/icons/php.svg" alt="Github logo"></li>
+    <li class="about-me--list--item">MySQL<img src="assets/images/icons/mysql.svg" alt="Github logo"></li>
+  </ul>
+
+  <div class="about-me--divider"></div>
+
+  <p>I'm a big believer in practice and trying new things. Practicing something relevant with work that you're going to throw away gives you the opportunity to truly focus on learning without worrying about outputs. Trying something new that's completely irrelevant is tremendously fun, rewarding, and often not as irrelevant as you think.</p>
+
+  <p>With that in mind and to encourage me to try more new things, I'm listing things I've tried here. These range from the languages that I'm most confident in to frameworks I've used once.</p>
+
+  <table class="about-me--tried">
+    {% assign sorted = site.data.tried | sort: 'confidence' | reverse %}
+    {% for item in sorted %}
+      <tr>
+        <td class="about-me--tried--name">
+          {% if item.blog_post %}
+            <a href="{{ item.blog_post }}">
+          {% endif %}
+            {{ item.name }}
+          {% if item.blog_post %}
+            </a>
+          {% endif %}
+        </td>
+        <td class="about-me--tried--confidence__{{ item.confidence }}">
+
+        </td>
+      </tr>
+    {% endfor %}
+  </table>
+</div>

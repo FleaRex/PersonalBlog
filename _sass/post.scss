@@ -5,7 +5,7 @@
   min-height: 85vh;
   margin: 20px auto 0;
   padding: 50px;
-  background: linear-gradient($background-color 0%, rgba($background-color, 0.6) 100%);
+  background: linear-gradient(rgba($background-color, 0.9) 0%, rgba($background-color, 0.6) 100%);
 
   * {
     margin: 10px 0;
@@ -56,6 +56,13 @@
     }
   }
 
+  small {
+    font-size: 14px;
+    line-height: 20px;
+
+    font-style: italic;
+  }
+
   &--card {
     border-bottom: 1px solid $accent-color;
 
@@ -72,40 +79,73 @@
       }
     }
   }
-}
 
-// .caption {
-//   margin-top: 0px;
-//   font-style: italic;
-// }
-//
-// .captionedImage {
-//   @extend %card;
-//   text-align: center;
-//   width: 100%;
-// }
-//
-// %card {
-//   background-color: $card-color;
-//   box-shadow: 3px 5px $text-color;
-// }
-//
-// .author {
-//   font-style: italic;
-// }
-//
-// li {
-//   display: list-item;
-//   // list-style-type: disc !important;
-// }
-//
-// .glossary-story {
-//   font-style: italic;
-// }
-//
-// .card-divider {
-//   border: 0;
-//   background: #424242;
-//   height: 1px;
-//   width: 100%;
-// }
+  &--book-title {
+    margin-top: 60px;
+  }
+
+  &--glossary-card {
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto 0;
+    padding: 5px 25px;
+    width: 100%;
+    color: $background-color;
+    background: linear-gradient(rgba($accent-color, 1) 0%, rgba($accent-color, 0.8) 100%);
+    border-radius: 3px;
+
+    &--content {
+      .post--divider {
+        background: $background-color;
+      }
+
+    }
+  }
+
+  &--latest-post {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto 0;
+    padding: 5px 25px 45px;
+    color: $background-color;
+    background-color: rgba($accent-color, 0.8);
+    text-decoration: none;
+    border-radius: 3px;
+    transition: all 0.25s ease;
+    overflow: hidden;
+
+    &::after {
+      content: "Read More";
+      position: absolute;
+      bottom: -60px;
+      right: 15px;
+      font-size: 18px;
+      font-family: $heading-font-stack;
+
+      transition: bottom 0.25s cubic-bezier(.04,.35,.47,1.61);
+    }
+
+    &:hover {
+      background-color: rgba($accent-color, 1);
+      -webkit-box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.75);
+      box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.75);
+
+      &:after {
+        bottom: 15px;
+      }
+    }
+
+    h2 {
+      text-decoration: underline;
+    }
+
+    p {
+    }
+
+    p:empty {
+      display: none;
+    }
+  }
+}

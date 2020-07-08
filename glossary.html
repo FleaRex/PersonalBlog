@@ -3,20 +3,22 @@ title: Software Development Glossary
 ---
 {% include navigation.html %}
 
-<h1>Software Development Glossary</h1>
+<div class="post">
+  <h1>Software Development Glossary</h1>
 
-<p>Software development has a lot of strange terms that you hear around. This is a summary of my personal working definitions and origin stories. I do not know how many of the stories are real.</p>
+  <p>Software development has a lot of strange terms that you hear around. This is a summary of my personal working definitions and origin stories. I do not know how many of the stories are real.</p>
 
-{% for item in site.data.glossary_terms %}
-<div class="card teal lighten-4">
-  <div class="card-content">
+  {% for item in site.data.glossary_terms %}
+  <div class="post--glossary-card">
+    <div class="post--glossary-card--content">
 
-    <span class="card-title">{{ item.word }}</span>
-    <p>{{ item.definition }}</p>
-    {% if item.story %}
-      <hr class="card-divider">
-      <p class="glossary-story">{{ item.story }}</p>
-    {% endif %}
+      <h3 class="post--glossary-card--content--title">{{ item.word }}</h3>
+      <p>{{ item.definition }}</p>
+      {% if item.story %}
+        <div class="post--divider"></div>
+        <small>{{ item.story }}</small>
+      {% endif %}
+    </div>
   </div>
+  {% endfor %}
 </div>
-{% endfor %}

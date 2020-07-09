@@ -41,7 +41,7 @@
   table {
     border-collapse: collapse;
     font-size: 18px;
-    max-width: 600px;
+    margin: 40px 60px;
 
     tbody {
       tr {
@@ -54,6 +54,42 @@
           &.about-me--tried--name {
             width: 40%;
             text-align: right;
+
+            a {
+              text-decoration: none;
+              opacity: 0.85;
+
+              &:hover {
+                opacity: 1;
+              }
+            }
+
+            span {
+              background-color: $text-color;
+              color: $background-color;
+              padding: 2px;
+              border-radius: 3px;
+
+              &.tag__ {
+                $tags: (
+                  "database": #ffa094,
+                  "language": #8cff8a,
+                  "framework": #fff78a,
+                  "css": #8aafff,
+                  "cloud": #EEE,
+                  "CI": #ff8abf
+                );
+
+                @each $tag, $colour in $tags {
+                  &#{$tag} {
+                    background-color: $colour;
+                    -webkit-box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.75);
+                    box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.75);
+                  }
+                }
+              }
+            }
           }
 
           @for $i from 1 through 9 {
@@ -67,6 +103,7 @@
                 bottom: 0;
                 width: 100%/9  * $i;
                 background-color: rgba($accent-color, 0.1 * $i);
+                border-radius: 0 5px 5px 0;
               }
             }
           }

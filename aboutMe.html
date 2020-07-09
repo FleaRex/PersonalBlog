@@ -32,11 +32,16 @@ title: About Me
           {% if item.blog_post %}
             </a>
           {% endif %}
+          {% if item.tags %}
+            {% for tag in item.tags %}
+              <span class="tag__{{ tag }}">{{ tag }}</span>
+            {% endfor %}
+          {% endif %}
         </td>
-        <td class="about-me--tried--confidence__{{ item.confidence }}">
-
-        </td>
+        <td class="about-me--tried--confidence__{{ item.confidence }}"></td>
       </tr>
     {% endfor %}
   </table>
+
+  <p>Disclaimer: Those bars are not representative of much.</p> 
 </div>

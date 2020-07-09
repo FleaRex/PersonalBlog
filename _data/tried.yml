@@ -88,12 +88,12 @@
   tags:
     - framework
 - name: AWS
-  confidence: 5
+  confidence: 4
   blog_post: 2018/10/14/newBlog.html
   tags:
     - cloud
 - name: GCP
-  confidence: 4
+  confidence: 5
   tags:
     - cloud
 - name: WordPress
@@ -108,4 +108,20 @@
   confidence: 7
   blog_post: 2018/10/14/newBlog.html
   tags:
-    - CI
+    - ci
+- name: Docker
+  confidence: 5
+  tags:
+    - container
+- name: Kubernetes
+  confidence: 2
+  tags:
+    - container
+- name: Ansible
+  confidence: 2
+  tags:
+    - configuration
+- name: Chef
+  confidence: 7
+  tags:
+    - configuration

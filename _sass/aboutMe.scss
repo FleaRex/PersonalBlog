@@ -77,7 +77,9 @@
                   "framework": #fff78a,
                   "css": #8aafff,
                   "cloud": #EEE,
-                  "CI": #ff8abf
+                  "ci": #ff8abf,
+                  "container": #a991ff,
+                  "configuration": #ffcf99
                 );
 
                 @each $tag, $colour in $tags {
@@ -103,7 +105,7 @@
                 bottom: 0;
                 width: 100%/9  * $i;
                 background-color: rgba($accent-color, 0.1 * $i);
-                border-radius: 0 5px 5px 0;
+                border-radius: 5px;
               }
             }
           }

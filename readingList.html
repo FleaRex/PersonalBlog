@@ -1,18 +1,21 @@
 ---
 title: My Reading List
 ---
+{% include navigation.html %}
 
-<h1>My Reading List</h1>
+<div class="post">
+  <h1>My Reading List</h1>
 
-<p>I love a good read and a good watch! Here's some of my favourite reads, watches, and some very brief notes.</p>
+  <p>I love a good read and a good watch! Here's some of my favourite reads, watches, and some very brief notes.</p>
 
-{% for book in site.books %}
-  <h4>{{ book.title }}</h4>
-  <p class="author">Author: {{ book.author }}</p>
-  {{ book.content }}
-{% endfor %}
+  {% for book in site.books %}
+    <h2 class="post--book-title">{{ book.title }}</h2>
+    <h3 class="author">Author: {{ book.author }}</h3>
+    {{ book.content }}
+  {% endfor %}
 
-<h1>The Virtual Conference Track</h1>
+  <h1>The Virtual Conference Track</h1>
 
-<p>Below is my selected conference talks. There's a lot or talks from the Lead Developer Conference and DevOps Days.</p>
-<iframe width="500" height="300" src="https://www.youtube.com/embed/videoseries?list=PLzdCLOljp3HHIBHdYQqXWHJxbwUNDxk4w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <p>Below is my selected conference talks. There's a lot or talks from the Lead Developer Conference and DevOps Days. I also recommend anything by Sandi Metz.</p>
+  <iframe width="500" height="300" src="https://www.youtube.com/embed/videoseries?list=PLzdCLOljp3HHIBHdYQqXWHJxbwUNDxk4w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>

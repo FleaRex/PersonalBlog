@@ -10,13 +10,13 @@ class PictureTag < Liquid::Tag
     image = input_split[1].strip
 
     output =  <<-PIC
-<div class="card">
-  <div class="card-image">
+<div class="post--card">
+  <div class="post--card--image">
     <a href="#{image}">
       <img src="#{image}" alt="#{caption}" width="100%">
     </a>
   </div>
-  <div class="card-content">
+  <div class="post--card--content">
     <p>#{caption}</p>
   </div>
 </div>

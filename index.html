@@ -2,28 +2,33 @@
 title: Home
 short_name: ben
 ---
-<h1>Ben Madley</h1>
+<main class="hero">
+  <div class="hero--text">
+    <h1><span>B</span>EN <span>M</span>ADLEY</h1>
 
-<div class="divider"></div>
-
-<ul>
-  <li>Software Developer: PHP, Python, MySQL, Scrum</li>
-  <li>Former Mario Kart Champion</li>
-  <li>GitHub: <a href="https://github.com/FleaRex">FleaRex</a></li>
-  <li>Twitter: <a href="https://twitter.com/BenMad29">@BenMad29</a></li>
-</ul>
-
-<div class="divider"></div>
-
-<h2>Latest Posts</h2>
-
-{% for post in site.posts %}
-  <a class="blogCardLink" href="{{ post.url }}">
-    <div class="card hoverable  teal darken-1">
-      <div class="card-content white-text">
-        <span class="card-title">{{ post.title }}</span>
-        <p>{{ post.excerpt }}</p>
-      </div>
+    <div class="hero--text--site-links">
+      <a href="aboutMe.html">About Me</a>
+      <a href="blog.html">The Blog</a>
+      <a href="readingList.html">Reading List</a>
+      <a href="glossary.html">Glossary</a>
     </div>
-  </a>
-{% endfor %}
+
+    <ul class="hero--text--personal-links">
+      <li><a href="https://github.com/FleaRex"><img src="assets/images/icons/github.svg" alt="Github logo">FleaRex</a></li>
+      <li><a href="https://twitter.com/BenMad29"><img src="assets/images/icons/twitter.svg" alt="Twitter logo">@BenMad29</a></li>
+      <li><a href="https://flearex.itch.io/"><img src="assets/images/icons/itchio.svg" alt="itch.io logo">BAM</a></li>
+    </ul>
+  </div>
+
+  <div class="hero--blog">
+    <p class="hero--blog--precomment">Most recent post:</p>
+    {% for post in site.posts limit:1 %}
+      <div class="hero--blog--recent-post">
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <h3>{{ post.author }}, {{ post.date | date_to_string }}</h3>
+        <p>{{ post.excerpt }}</p>
+        <a class="hero--blog--recent-post--read-more" href="{{ post.url }}">Read more</a>
+      </div>
+    {% endfor %}
+  </div>
+</main>

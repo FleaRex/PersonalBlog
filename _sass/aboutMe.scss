@@ -1,0 +1,116 @@
+.about-me {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  min-height: 85vh;
+  margin: 20px auto 0;
+  padding: 50px;
+  background: linear-gradient(rgba($background-color, 0.9) 0%, rgba($background-color, 0.6) 100%);
+
+  * {
+    margin: 10px 0;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  &--divider {
+    height: 1px;
+    width: 100%;
+
+    background: linear-gradient(90deg, rgba($accent-color, 0) 0%, rgba($accent-color, 0.7) 5%, rgba($accent-color, 1) 50%, rgba($accent-color, 0.7) 95%, rgba($accent-color, 0) 100%);
+  }
+
+  &--list {
+    li {
+      list-style-type: none !important;
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+
+      img {
+        filter: invert(100%);
+        height: 1.5em;
+        margin: 0 0 0 15px;
+      }
+    }
+  }
+
+  table {
+    border-collapse: collapse;
+    font-size: 18px;
+    margin: 40px 60px;
+
+    tbody {
+      tr {
+        td {
+          border-top: 4px solid transparent;
+          text-align: left;
+          padding: 8px 6px;
+          position: relative;
+
+          &.about-me--tried--name {
+            width: 40%;
+            text-align: right;
+
+            a {
+              text-decoration: none;
+              opacity: 0.85;
+
+              &:hover {
+                opacity: 1;
+              }
+            }
+
+            span {
+              background-color: $text-color;
+              color: $background-color;
+              padding: 2px;
+              border-radius: 3px;
+
+              &.tag__ {
+                $tags: (
+                  "database": #ffa094,
+                  "language": #8cff8a,
+                  "framework": #fff78a,
+                  "css": #8aafff,
+                  "cloud": #EEE,
+                  "ci": #ff8abf,
+                  "container": #a991ff,
+                  "configuration": #ffcf99
+                );
+
+                @each $tag, $colour in $tags {
+                  &#{$tag} {
+                    background-color: $colour;
+                    -webkit-box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.75);
+                    box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.75);
+                  }
+                }
+              }
+            }
+          }
+
+          @for $i from 1 through 9 {
+            &.about-me--tried--confidence__#{$i} {
+              width: 60%;
+
+              &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                width: 100%/9  * $i;
+                background-color: rgba($accent-color, 0.1 * $i);
+                border-radius: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

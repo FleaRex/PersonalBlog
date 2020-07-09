@@ -1,5 +1,9 @@
 - name: Home
   link: /
+- name: About Me
+  link: /aboutMe.html
+- name: Blog
+  link: /blog.html
 - name: Reading List
   link: /readingList.html
 - name: Glossary

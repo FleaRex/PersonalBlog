@@ -41,6 +41,7 @@
     - language
 - name: CSS
   confidence: 7
+  blog_post: 2020/07/09/blogUpdate.html
   tags:
     - language
 - name: HTML
@@ -49,6 +50,7 @@
     - language
 - name: Sass
   confidence: 7
+  blog_post: 2020/07/09/blogUpdate.html
   tags:
     - css
 - name: Less
@@ -77,6 +79,7 @@
     - language
 - name: VueJS
   confidence: 8
+  blog_post: 2020/07/09/blogUpdate.html
   tags:
     - framework
 - name: AngularJS

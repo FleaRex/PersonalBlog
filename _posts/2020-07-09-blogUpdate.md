@@ -6,7 +6,7 @@ title: Major Blog Update
 
 I started a new job in February and suddenly I'm doing some frontend development (but in a strange mix I'm also doing some machine learning). It's been a real change and I've learned a lot about CSS, Sass and Vue. To celebrate this I've done a major refresh on the blog.
 
-<div style="width: 40%;">{% picture The diff on the redesign |/assets/images/redesigndiff.png %}</div>
+<div style="width: 40%;">{% picture The diff on the redesign |/assets/images/redesigndiff.PNG %}</div>
 
 {% picture The old look |/assets/images/oldblog.jpg %}
 

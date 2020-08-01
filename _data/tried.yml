@@ -132,3 +132,11 @@
   confidence: 3
   tags:
     - language
+- name: Flask
+  confidence: 3
+  tags:
+    - framework
+- name: Django
+  confidence: 5
+  tags: 
+    - framework

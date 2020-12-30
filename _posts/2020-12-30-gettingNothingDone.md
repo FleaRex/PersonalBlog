@@ -8,7 +8,7 @@ Plenty of articles will give you help on how to get things done, but precious fe
 
 ## Always be working
 
-The first trick is a little counter-intuitive. You're looking to reduce your productivity, so why should you work _more_ than you do now? Well, lets examine what happens when you decide you're always going to be working.
+The first trick is a little counter-intuitive. You're looking to reduce your productivity, so why should you work _more_ than you do now? Well, let's examine what happens when you decide you're always going to be working.
 
 First you need to pick something to do, maybe even _find_ something to do. Let's not forget, you need to always be working, so you need that task as soon as possible. This lends itself to picking the first thing that comes up, rather than the most important or useful thing. Maybe the thing you pick up isn't even useful at all. Maybe it will be detrimental!
 

@@ -140,3 +140,7 @@
   confidence: 5
   tags: 
     - framework
+- name: go
+  confidence: 2
+  tags:
+    - language

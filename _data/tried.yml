@@ -8,7 +8,7 @@
   tags:
     - database
 - name: MariaDB
-  confidence: 8
+  confidence: 9
   tags:
     - database
 - name: php
@@ -28,7 +28,7 @@
   tags:
     - language
 - name: C++
-  confidence: 2
+  confidence: 1
   tags:
     - language
 - name: Ruby
@@ -36,29 +36,29 @@
   tags:
     - language
 - name: Matlab
-  confidence: 2
+  confidence: 1
   tags:
     - language
 - name: CSS
-  confidence: 7
+  confidence: 8
   blog_post: 2020/07/09/blogUpdate.html
   tags:
     - language
 - name: HTML
-  confidence: 6
+  confidence: 8
   tags:
     - language
 - name: Sass
-  confidence: 7
+  confidence: 8
   blog_post: 2020/07/09/blogUpdate.html
   tags:
     - css
 - name: Less
-  confidence: 5
+  confidence: 4
   tags:
     - css
 - name: Objective-C
-  confidence: 2
+  confidence: 1
   tags:
     - language
 - name: SQL
@@ -70,7 +70,7 @@
   tags:
     - database
 - name: PostgreSQL
-  confidence: 5
+  confidence: 4
   tags:
     - database
 - name: Bash
@@ -83,7 +83,7 @@
   tags:
     - framework
 - name: AngularJS
-  confidence: 3
+  confidence: 2
   tags:
     - framework
 - name: DragonRuby
@@ -91,12 +91,12 @@
   tags:
     - framework
 - name: AWS
-  confidence: 4
+  confidence: 6
   blog_post: 2018/10/14/newBlog.html
   tags:
     - cloud
 - name: GCP
-  confidence: 5
+  confidence: 4
   tags:
     - cloud
 - name: WordPress
@@ -144,3 +144,15 @@
   confidence: 2
   tags:
     - language
+- name: node
+  confidence: 5
+  tags:
+    - language
+- name: CloudFormation
+  confidence: 4
+  tags:
+    - IaC
+- name: Terraform
+  confidence: 7
+  tags:
+    - IaC

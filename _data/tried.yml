@@ -32,7 +32,7 @@
   tags:
     - language
 - name: Ruby
-  confidence: 4
+  confidence: 8
   tags:
     - language
 - name: Matlab
@@ -91,7 +91,7 @@
   tags:
     - framework
 - name: AWS
-  confidence: 6
+  confidence: 9
   blog_post: 2018/10/14/newBlog.html
   tags:
     - cloud
@@ -145,14 +145,26 @@
   tags:
     - language
 - name: node
-  confidence: 5
+  confidence: 8
   tags:
     - language
 - name: CloudFormation
-  confidence: 4
+  confidence: 8
   tags:
     - IaC
 - name: Terraform
   confidence: 7
   tags:
     - IaC
+- name: DynamoDB
+  confidence: 9
+  tags:
+    - database
+- name: React
+  confidence: 7
+  tags:
+    - framework
+- name: typescript
+  confidence: 7
+  tags:
+    - language

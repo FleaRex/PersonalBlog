@@ -16,7 +16,7 @@
   tags:
     - language
 - name: python
-  confidence: 9
+  confidence: 7
   tags:
     - language
 - name: JavaScript
@@ -74,7 +74,7 @@
   tags:
     - database
 - name: Bash
-  confidence: 4
+  confidence: 3
   tags:
     - language
 - name: VueJS
@@ -87,7 +87,7 @@
   tags:
     - framework
 - name: DragonRuby
-  confidence: 6
+  confidence: 4
   tags:
     - framework
 - name: AWS
@@ -96,24 +96,19 @@
   tags:
     - cloud
 - name: GCP
-  confidence: 4
+  confidence: 3
   tags:
     - cloud
 - name: WordPress
-  confidence: 6
+  confidence: 4
   tags:
     - framework
 - name: Jekyll
-  confidence: 5
+  confidence: 4
   tags:
     - framework
-- name: Travis CI
-  confidence: 7
-  blog_post: 2018/10/14/newBlog.html
-  tags:
-    - ci
 - name: Docker
-  confidence: 5
+  confidence: 6
   tags:
     - container
 - name: Kubernetes
@@ -125,7 +120,7 @@
   tags:
     - configuration
 - name: Chef
-  confidence: 7
+  confidence: 6
   tags:
     - configuration
 - name: Java
@@ -137,7 +132,7 @@
   tags:
     - framework
 - name: Django
-  confidence: 5
+  confidence: 4
   tags: 
     - framework
 - name: go
@@ -149,7 +144,7 @@
   tags:
     - language
 - name: CloudFormation
-  confidence: 8
+  confidence: 9
   tags:
     - IaC
 - name: Terraform

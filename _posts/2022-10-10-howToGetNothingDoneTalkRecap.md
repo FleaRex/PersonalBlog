@@ -2,6 +2,7 @@
 author: Ben Madley
 github: FleaRex
 title: How To Get Nothing Done - The Talk Retrospective
+excerpt: Almost two years ago, I wrote a blog post about getting nothing done and I was pretty happy with it. It was born out of frustration with systems that value the act of working over getting things done. Particularly, starting lots of tasks and not finishing them. Then, when DevOps Days London announced its first conference back after a COVID break, I instantly knew I would submit it to the CFP. Thankfully, _How to Get Nothing Done_ was accepted. I had a great time speaking at DevOps Days and I'm sure I will submit a talk next year.
 ---
 
 Almost two years ago, I wrote a [blog post about getting nothing done](/2020/12/30/gettingNothingDone.html) and I was pretty happy with it. It was born out of frustration with systems that value the act of working over getting things done. Particularly, starting lots of tasks and not finishing them. Then, when DevOps Days London announced its first conference back after a COVID break, I instantly knew I would submit it to the CFP. Thankfully, _How to Get Nothing Done_ was accepted. I had a great time speaking at DevOps Days and I'm sure I will submit a talk next year.

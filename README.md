@@ -1,6 +1,6 @@
 # Personal Blog
 
-Built using Jekyll. Deployed to S3 with Travis.
+Built using Jekyll. Deployed to S3 with Github Actions.
 
 ## Working on this
 

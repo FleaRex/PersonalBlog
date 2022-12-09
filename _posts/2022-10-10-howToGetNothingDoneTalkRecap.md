@@ -9,7 +9,7 @@ Almost two years ago, I wrote a [blog post about getting nothing done](/2020/12/
 
 ## Quick Links
 
-- The talk - _Link to talk recording to appear soon_
+- [The talk](https://youtu.be/Rgg1v_T6DZU)
 - [The slides](/assets/pdfs/DevOpsDaysLondonIgnite2022-slides.pdf)
 - [The script](/assets/pdfs/DevOpsDaysLondonIgnite2022-script.pdf)
 

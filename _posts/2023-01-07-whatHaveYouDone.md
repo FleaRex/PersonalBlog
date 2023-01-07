@@ -2,7 +2,7 @@
 author: Ben Madley
 github: FleaRex
 title: What Have You Done to Make it Easier to Get Feedback?
-excerpt: Many companies have a _feedback culture_, where employees are encouraged to give each other feedback - normally ad-hoc and on request. Often, this results in a lot of positive feedback (I would still argue not enough). The other side is constructive feedback. Constructive feedback can be crucial to personal development, but many people feel like they don't get enough. I think we're looking at the problem backwards.
+excerpt: Many companies have a feedback culture, where employees are encouraged to give each other feedback - normally ad-hoc and on request. Often, this results in a lot of positive feedback (I would still argue not enough). The other side is constructive feedback. Constructive feedback can be crucial to personal development, but many people feel like they don't get enough. I think we're looking at the problem backwards.
 
 ---
 
